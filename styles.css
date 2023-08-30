@@ -1,0 +1,27 @@
+.header {
+    background-color: #ff0000;
+    color: #ff8484;
+    text-align: center;
+    padding: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat (auto-fit, minmax (300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.grid-item {
+    border: 1px solid #ff4b4b;
+    padding: 1rem;
+}
+
+.footer { 
+    background-color: #ff0000; 
+    color: #ff8484; 
+    text-align: center; 
+    padding: 1rem; 
+    } 
+    
